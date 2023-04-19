@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		temperature convertor.
+	</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymus">
+	<style type="text/css">
+		
+		body{
+			margin-top: 60px;
+			text-align: center;
+		}
+		h1{
+			padding-bottom: 0.5rem;
+		}
+		 input[type=number]{
+		 	cursor: pointer;
+		 }
+		 #input-fahrenheit{
+		 	 background-color: #16BAC5;
+		 	 font-size: 2.5rem;
+		 }
+
+#input-kelvin{
+	background-color: #42a0d9;
+	font-size: 2.5rem;
+}
+#input-celsius{
+	background-color: #52DDCF;
+	font-size: 2.5rem;
+}
+.form-padding{
+	 padding: 2rem 1rem;
+}
+  
+  ::-webkit-input-placeholder{
+  	color: #FFFFFF !important;
+  }
+   ::-moz-placeholder{
+   	color: #FFFFFF !important;
+   }
+    :-moz-placeholder{
+    	color: #FFFFFF !important;
+    }
+    footer{
+    	 padding-top: 1.5rem;
+    	 font-size: 0.7rem;
+    	 line-height: 0.2rem;
+    	 text-align: center;
+    }
+    .icons{
+    	max-width: 25px;
+    	height: auto;
+    }
+</style>
+</head>
+<body>
+<div  class="container">
+	<div class="row justify-content-md-center">
+		<div class="col-md-6 text-center">
+			<h1>Temperature Convertor</h1>
+			<div id="celsius">
+				<input type="number" class="form-control form-control-lg form-padding" id="input-celsius" placeholder="celsius">
+			</div>
+			<div id="fahrenheit">
+				<input type="number" class="form-control form-control-lg form-padding" id="input-fahrenheit" placeholder="fahrenheit">
+
+</div>
+<div id="kelvin">
+	<input type="number" class="form-control form-control-lg form-padding" id="input-kelvin" placeholder="kelvin">
+
+
+</div>
+</div>
+</div>
+<footer>
+	<p>By Elle j.</p>
+	 <p><a href="https://github.com/itsellej" target="_blank"><img class="icons" src="https://res.cloudinary.com/itsellej/image/upload/v1533400136/rock-paper-scissors/github-icon.png" alt="Github icon"></a>
+            <a href="https://codepen.io/itsellej/" target="_blank"><img class="icons" src="https://res.cloudinary.com/itsellej/image/upload/v1533400135/rock-paper-scissors/codepen-icon.png" alt="Codepen icon"></a></p>
+          <p><em>Credit - icons from <a href="https://pngtree.com/">pngtree</a></em></p>
+        </footer>
+</div>
+<script type="text/javascript" src="temperature.js" charset="utf-8">	
+</script>
+</body>
+</html>
